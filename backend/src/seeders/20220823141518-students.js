@@ -4,7 +4,7 @@ module.exports = {
     [
       {
         name: 'Steve Rogers',
-        email: 'capitain@avengers.com',
+        email: 'capitain@maisaeducacao.com',
         cpf: '12345678901',
         RA: '101230',
         createdAt: Sequelize.literal('CURRENT_TIMESTAMP'),
@@ -12,7 +12,7 @@ module.exports = {
       },
       {
         name: 'Thor',
-        email: 'thor@avengers.com',
+        email: 'thor@maisaeducacao.com',
         cpf: '09876543210',
         RA: '101231',
         createdAt: Sequelize.literal('CURRENT_TIMESTAMP'),
@@ -20,7 +20,7 @@ module.exports = {
       },
       {
         name: 'Bruce Banner',
-        email: 'hulk@avengers.com',
+        email: 'hulk@maisaeducacao.com',
         cpf: '67890123456',
         RA: '101232',
         createdAt: Sequelize.literal('CURRENT_TIMESTAMP'),
@@ -28,7 +28,7 @@ module.exports = {
       },
       {
         name: 'Tony Stark',
-        email: 'ironman@avengers.com',
+        email: 'ironman@maisaeducacao.com',
         cpf: '54321098765',
         RA: '101233',
         createdAt: Sequelize.literal('CURRENT_TIMESTAMP'),
