@@ -13,20 +13,19 @@ const getAll = async (student) => {
   return allStudents;
 };
 
-const editStudent = async (id, name, email) => {
-  await Student.findOne({ where: { id } });
+const editStudent = async (RA, name, email) => {
   const updateData = await Student.update(
     {
       name, email,
     },
-    { where: { id } },
+    { where: { RA } },
   );
 
   return updateData;
 };
 
-const removeStudent = async (id) => {
-  const remove = await Student.destroy({ where: { id } });
+const removeStudent = async (RA) => {
+  const remove = await Student.destroy({ where: { RA } });
 
   return remove;
 };
