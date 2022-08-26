@@ -5,7 +5,7 @@ const create = async (req, res) => {
   const student = await studentServices.create(information);
   if (student.message) return res.status(student.code).json({ message: student.message });
 
-  return res.status(201).json({ student });
+  return res.status(201).json({ message: 'Student successfully registered!' });
 };
 
 const getAll = async (_req, res) => {
