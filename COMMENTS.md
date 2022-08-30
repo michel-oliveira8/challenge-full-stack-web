@@ -41,6 +41,8 @@
 
 - Rodar a aplicação no back-end:
 
+- Favor alterar o nome do arquivo .env_example para .env e inserir os seus dados para comunicação com o BD.
+
 - Para instalar o serviço MySQL na maquina:
 - `Linux: sudo apt install mysql-server`
 `macOS: brew install mysql`
